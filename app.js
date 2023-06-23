@@ -14,6 +14,7 @@ app.use(express.urlencoded({ extended: false }));
 app.use('/user', async (req, res) => {
     res.status(200).json({
         success: true,
+        name:"dinesh chauhan",
         message: "First deploy Successfull....."
     })
 });
