@@ -1,6 +1,8 @@
 const app = require('./app')
 const fs = require('fs')
+const dbOps = require('./config/db');
 
+dbOps.connect();
 let server
 if(process.env.PROTOCOL == 'https'){
     const https = require('https')
