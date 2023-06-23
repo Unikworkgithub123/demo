@@ -1,6 +1,6 @@
 const app = require('./app')
 const fs = require('fs')
-const dbOps = require('./config/db');
+// const dbOps = require('./config/db');
 
 // dbOps.connect();
 let server
